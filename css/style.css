@@ -1,0 +1,188 @@
+
+hr{
+    color: #ccc;
+}
+
+
+
+.navi {
+    background-color: white;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+
+ 
+
+
+
+.footer{
+    background-color: #777;
+    font-size: 10px;
+    overflow:hidden;
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 40px;
+    border-top: 8px solid #4aaaa5;
+    
+}
+
+.navi a {
+    float: right;
+    color: #999;
+    text-align: center;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.navi a:hover {
+    color:#18bc9c;
+}
+
+.navclass{
+    background-color:#fff;
+}
+
+
+.myname {
+    /* float: left; */
+    width: 250px;
+    height: 88px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    position: fixed;
+    margin-left: 248px;
+}
+
+body{
+    font-family: 'Allerta Stencil';font-size: 22px;
+    background-color: white!important;
+    position: relative;
+    margin: 0 auto;
+    background-image:url(../assets/images/background.png);
+    background-repeat: repeat;
+    font-size: 18px;
+    line-height: 28px;
+
+}
+
+.p1 {
+    padding: 13px;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin: 15px 250px;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+
+.title{
+    color:#4aaaa5;
+    font-size: 200%;
+    position: left;
+    padding: 10px 20px;
+    margin: 20px;
+    text-align: left;
+    
+    
+}
+
+.contact{
+
+    margin: 100px 16px;
+
+}
+
+.contact-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container{
+
+    background: transparent;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 12px;
+
+}
+
+form{
+
+    padding-top: 0px;
+    padding-bottom: 10px;
+    display:block;
+    width:100%;
+    
+}
+
+.form-name, .form-lname, .form-email, .form-message{
+position: relative;  
+border-radius: 12px;  
+
+}
+
+form textarea{
+
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #2c3e50;
+    transition: 0.2s;
+    margin-top: 16px;
+    height: 150px;
+    background-color: white;
+    padding: 10px 16px, 10px, 30px;
+    border: 1px solid #ddd
+}
+
+.pfp {
+    float: left;
+    margin-right: 30px;
+}
+
+.projects{
+    position: static;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.pictitle {
+    width: 160px;
+    height: 60px;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding: 1px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: -77px;
+}
+  
+  
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
